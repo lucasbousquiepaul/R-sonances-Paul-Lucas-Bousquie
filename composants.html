@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Jetons</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Toutes les valeurs fondamentales de la charte visuelle, utilisées par les composants.</p>
+
+        <div class="l-docs-group">
+            <!-- COULEURS DE LA CHARTE -->
+            <div class="l-docs-row"> <!-- container-->
+                <span class="l-docs-row__label">Couleurs</span>
+                <div class="l-docs-row__content">
+                    <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--text-primary"></div>
+                        <span class="c-swatch__label">Texte principal</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--text-normal"></div>
+                        <span class="c-swatch__label">Texte courant</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--text-secondary"></div>
+                        <span class="c-swatch__label">Texte second</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--bg-alt"></div>
+                        <span class="c-swatch__label">Fond alterné</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--border"></div>
+                        <span class="c-swatch__label">Bordures</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--primary"></div>
+                        <span class="c-swatch__label">Principale</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--primary-hover"></div>
+                        <span class="c-swatch__label">Survol</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--accent"></div>
+                        <span class="c-swatch__label">Accent</span>
+                        </div>
+
+                        <div class="c-swatch">
+                        <div class="c-swatch__circle c-swatch__circle--error"></div>
+                        <span class="c-swatch__label">Erreur</span>
+                        </div>
+                </div>
+            </div>
+
+            <!-- COULEURS DES SCÈNES -->
+            <div class="l-docs-row">
+                <span class="l-docs-row__label">Scènes</span>
+                <div class="l-docs-row__content">
+                    <div class="c-swatch-badge c-swatch-badge--lac">Scène du Lac</div>
+                    <div class="c-swatch-badge c-swatch-badge--forest">Scène de la Forêt</div>
+                    <div class="c-swatch-badge c-swatch-badge--kiosk">Le Kiosque</div>
+                </div>
+            </div>
+
+            <!-- TYPOGRAPHIE -->
+            <div class="l-docs-row">
+                <span class="l-docs-row__label">Typographie</span>
+                <div class="l-docs-row__content l-docs-row__content--typo">
+                    <span class="l-docs-typo l-docs-typo--title">Titre 40</span>
+                    <span class="l-docs-typo l-docs-typo--section">Sous-titre 28</span>
+                    <span class="l-docs-typo l-docs-typo--intro">Introduction 20</span>
+                    <span class="l-docs-typo l-docs-typo--text">Courant 16</span>
+                    <span class="l-docs-typo l-docs-typo--small">Petit 14</span>
+                </div>
+            </div>
+
+            <!-- ESPACEMENTS -->
+            <div class="l-docs-row">
+                <span class="l-docs-row__label">Espacements</span>
+                <div class="l-docs-row__content l-docs-row__content--spacing">
+                    <div class="c-spacing-box c-spacing-box--xs"></div>
+                    <span>8</span>
+                    <div class="c-spacing-box c-spacing-box--sm"></div>
+                    <span>16</span>
+                    <div class="c-spacing-box c-spacing-box--md"></div>
+                    <span>24</span>
+                    <div class="c-spacing-box c-spacing-box--lg"></div>
+                    <span>40</span>
+                    <div class="c-spacing-box c-spacing-box--xl"></div>
+                    <span>64</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Boutons</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Un composant de base, des variantes de couleur et de taille, une icône facultative et des états.</p>
+
+        <div class="l-docs-group">
+            <!-- BOUTON DE BASE -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Bouton de base</span>
+            <div class="l-docs-row__content">
+                <button class="c-btn">Réserver</button>
+            </div>
+            </div>
+
+            <!-- COULEURS -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Couleurs</span>
+            <div class="l-docs-row__content">
+                <button class="c-btn c-btn--primary">Principal</button>
+                <button class="c-btn c-btn--secondary">Secondaire</button>
+                <button class="c-btn c-btn--outline">Contour</button>
+                <div class="l-docs-box--dark">
+                <button class="c-btn c-btn--light">Clair</button>
+                </div>
+            </div>
+            </div>
+
+            <!-- TAILLES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Tailles</span>
+            <div class="l-docs-row__content">
+                <button class="c-btn c-btn--sm">Petit</button>
+                <button class="c-btn c-btn--md">Moyen</button>
+                <button class="c-btn c-btn--lg">Grand</button>
+            </div>
+            </div>
+
+            <!-- AVEC ICÔNE -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Avec icône</span>
+            <div class="l-docs-row__content">
+                <button class="c-btn c-btn--primary">
+                <span class="c-btn__icon">+</span> Ajouter au programme
+                </button>
+                <button class="c-btn c-btn--secondary">
+                <span class="c-btn__icon">🎟</span> Réserver
+                </button>
+                <button class="c-btn c-btn--outline c-btn--icon-only" aria-label="Favori">
+                <span class="c-btn__icon">♥</span>
+                </button>
+                <button class="c-btn c-btn--outline">
+                Suivant <span class="c-btn__icon">→</span>
+                </button>
+            </div>
+            </div>
+
+            <!-- COMBINAISONS ET ÉTATS -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Combinaisons et états</span>
+            <div class="l-docs-row__content">
+                
+                <div class="c-swatch">
+                <button class="c-btn c-btn--secondary c-btn--lg">Secondaire grand</button>
+                <span class="c-swatch__label">Combinaison</span>
+                </div>
+
+                <div class="c-swatch">
+                <button class="c-btn c-btn--primary c-btn--hover">Survol</button>
+                <span class="c-swatch__label">Survol</span>
+                </div>
+
+                <div class="c-swatch">
+                <button class="c-btn c-btn--primary c-btn--focus">Focus clavier</button>
+                <span class="c-swatch__label">Focus clavier</span>
+                </div>
+
+                <div class="c-swatch">
+                <button class="c-btn c-btn--primary" disabled>Désactivé</button>
+                <span class="c-swatch__label">Désactivé</span>
+                </div>
+
+                <div class="c-swatch">
+                <button class="c-btn c-btn--primary c-btn--loading">
+                    <span class="c-btn__spinner"></span>
+                </button>
+                <span class="c-swatch__label">Chargement</span>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Badges</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Pour signaler une scène, un statut ou un nombre.</p>
+
+        <div class="l-docs-group">
+            <!-- BADGE DE BASE -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Badge de base</span>
+            <div class="l-docs-row__content">
+                <span class="c-badge">Badge</span>
+            </div>
+            </div>
+
+            <!-- SCÈNES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Scènes</span>
+            <div class="l-docs-row__content">
+                <span class="c-badge c-badge--lac">Scène du Lac</span>
+                <span class="c-badge c-badge--forest">Scène de la Forêt</span>
+                <span class="c-badge c-badge--kiosk">Le Kiosque</span>
+            </div>
+            </div>
+
+            <!-- STATUTS -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Statuts</span>
+            <div class="l-docs-row__content">
+                <span class="c-badge c-badge--success">Nouveau</span>
+                <span class="c-badge c-badge--warning">Dernières places</span>
+                <span class="c-badge c-badge--danger">Complet</span>
+            </div>
+            </div>
+
+            <!-- TAILLES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Tailles</span>
+            <div class="l-docs-row__content">
+                <span class="c-badge c-badge--lac c-badge--sm">Petit</span>
+                <span class="c-badge c-badge--lac c-badge--lg">Grand</span>
+            </div>
+            </div>
+
+            <!-- STYLES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Styles</span>
+            <div class="l-docs-row__content">
+                <span class="c-badge c-badge--forest">Plein arrondi</span>
+                <span class="c-badge c-badge--outline-forest">Contour</span>
+                <span class="c-badge c-badge--kiosk c-badge--square">Angles droits</span>
+            </div>
+            </div>
+
+            <!-- COMPTEUR -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Compteur</span>
+            <div class="l-docs-row__content">
+                <div class="c-badge-wrapper">
+                <button class="c-btn c-btn--secondary">
+                    <span class="c-btn__icon">♡</span> Mon programme
+                </button>
+                <span class="c-badge-count">3</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Cartes</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">La carte d'artiste, ses variantes, et les autres cartes du site.</p>
+
+        <div class="l-docs-group">
+            <!-- CARTE DE BASE -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Carte de base</span>
+            <div class="l-docs-row__content">
+                
+                <!-- Standard -->
+                <article class="c-card">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--lac">Scène du Lac</span>
+                    <h3 class="c-card__title">Marée Basse</h3>
+                    <p class="c-card__info">Rock · Ven. 9 · 20 h 15</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+                <!-- Sans image -->
+                <article class="c-card">
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--kiosk">Le Kiosque</span>
+                    <h3 class="c-card__title">Clara Ninon Quartet</h3>
+                    <p class="c-card__info">Jazz vocal · Ven. 9 · 18 h 30</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+                <!-- Titre deux lignes + actions -->
+                <article class="c-card">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--kiosk">Le Kiosque</span>
+                    <h3 class="c-card__title">Cordes Sensibles et l'Ensemble du Kiosque</h3>
+                    <p class="c-card__info">Acoustique · Sam. 10 · 17 h 30</p>
+                    <div class="c-card__actions">
+                    <button class="c-btn c-btn--secondary c-btn--sm">Voir la fiche</button>
+                    <button class="c-btn c-btn--outline c-btn--sm">+ Ajouter</button>
+                    </div>
+                </div>
+                </article>
+
+            </div>
+            </div>
+
+            <!-- VARIANTES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Variantes</span>
+            <div class="l-docs-row__content">
+
+                <!-- Mise en avant (Tête d'affiche) -->
+                <article class="c-card c-card--featured">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--lac">Scène du Lac</span>
+                    <h3 class="c-card__title">LUNE ROUSSE</h3>
+                    <p class="c-card__info">Pop · Ven. 9 · 22 h 30</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+                <!-- Compacte -->
+                <article class="c-card c-card--compact">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--forest">Scène de la Forêt</span>
+                    <h3 class="c-card__title">Brume</h3>
+                    <p class="c-card__info">House · Sam. 10 · 01 h 00</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+                <!-- Compacte 2 -->
+                <article class="c-card c-card--compact">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--forest">Scène de la Forêt</span>
+                    <h3 class="c-card__title">Sylve</h3>
+                    <p class="c-card__info">Ambient · Dim. 11 · 20 h 00</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+            </div>
+            </div>
+
+            <!-- HORIZONTALE -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Horizontale</span>
+            <div class="l-docs-row__content">
+
+                <article class="c-card c-card--horizontal">
+                <div class="c-card__media-placeholder"></div>
+                <div class="c-card__content">
+                    <span class="c-badge c-badge--forest">Scène de la Forêt</span>
+                    <h3 class="c-card__title">Vertige 808</h3>
+                    <p class="c-card__info">Techno · Ven. 9 · 23 h 30</p>
+                    <p class="c-card__desc">Un set entre house et disco, pensé pour la clairière de la forêt.</p>
+                    <a href="#" class="c-card__link">Voir la fiche →</a>
+                </div>
+                </article>
+
+            </div>
+            </div>
+
+            <!-- AUTRES CARTES -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Autres cartes</span>
+            <div class="l-docs-row__content">
+
+                <!-- Pass 1 jour -->
+                <article class="c-card-pass">
+                <h3 class="c-card-pass__title">Pass 1 jour</h3>
+                <div class="c-card-pass__price">49 €</div>
+                <ul class="c-card-pass__features">
+                    <li>✓ Accès aux trois scènes</li>
+                    <li>✓ Navette gratuite</li>
+                    <li>✓ Bracelet nominatif</li>
+                </ul>
+                <button class="c-btn c-btn--outline">Choisir</button>
+                </article>
+
+                <!-- Pass 3 jours (Mise en avant) -->
+                <article class="c-card-pass c-card-pass--highlight">
+                <span class="c-badge c-badge--warning c-card-pass__badge">Le plus choisi</span>
+                <h3 class="c-card-pass__title">Pass 3 jours</h3>
+                <div class="c-card-pass__price">119 €</div>
+                <ul class="c-card-pass__features">
+                    <li>✓ Accès aux trois scènes</li>
+                    <li>✓ Navette gratuite</li>
+                    <li>✓ Accès prioritaire au Kiosque</li>
+                </ul>
+                <button class="c-btn c-btn--primary">Choisir</button>
+                </article>
+
+                <!-- Carte Scène -->
+                <article class="c-card-scene c-card-scene--lac">
+                <h3 class="c-card-scene__title">Scène du Lac</h3>
+                <p class="c-card-scene__info">Pop et rock</p>
+                <a href="#" class="c-card-scene__link">Découvrir la scène →</a>
+                </article>
+
+                <!-- Carte Info Pratique -->
+                <article class="c-card-info">
+                <div class="c-card-info__number">1</div>
+                <div class="c-card-info__content">
+                    <h3 class="c-card-info__title">Accès</h3>
+                    <p class="c-card-info__text">En train : gare de Saint-Aulnes, puis navette gratuite.</p>
+                </div>
+                </article>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- ================= FORMULAIRES ================= -->
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Formulaires</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Champ de saisie, liste déroulante et case à cocher, avec leurs états.</p>
+
+        <div class="l-docs-group">
+            <!-- Champs de saisie -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Champ de saisie</span>
+            <div class="l-docs-row__content">
+                
+                <div class="c-swatch">
+                <div class="c-form-group">
+                    <label class="c-form-group__label" for="nom">Nom</label>
+                    <input type="text" id="nom" class="c-input" value="Durand">
+                    <span class="c-form-group__help">Texte d'aide</span>
+                </div>
+                </div>
+
+                <div class="c-swatch">
+                <div class="c-form-group">
+                    <label class="c-form-group__label" for="formule">Formule</label>
+                    <input type="text" id="formule" class="c-input c-input--focus" value="Pass 3 jours">
+                    <span class="c-form-group__help">Focus</span>
+                </div>
+                </div>
+
+                <div class="c-swatch">
+                <div class="c-form-group">
+                    <label class="c-form-group__label" for="email">E-mail</label>
+                    <input type="email" id="email" class="c-input c-input--error" value="camille.durand@">
+                    <span class="c-form-group__help c-form-group__help--error">Adresse e-mail invalide.</span>
+                </div>
+                </div>
+
+                <div class="c-swatch">
+                <div class="c-form-group">
+                    <label class="c-form-group__label" for="promo">Code promo</label>
+                    <input type="text" id="promo" class="c-input" value="Indisponible" disabled>
+                    <span class="c-form-group__help">Désactivé</span>
+                </div>
+                </div>
+
+            </div>
+            </div>
+
+            <!-- Liste et cases à cocher -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Liste et case</span>
+            <div class="l-docs-row__content">
+                
+                <div class="c-form-group">
+                <label class="c-form-group__label" for="nb-pass">Nombre de pass</label>
+                <div class="c-select-wrapper">
+                    <select id="nb-pass" class="c-select">
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    </select>
+                </div>
+                </div>
+
+                <label class="c-checkbox">
+                <input type="checkbox" class="c-checkbox__input" checked>
+                <span class="c-checkbox__box"></span>
+                <span class="c-checkbox__label">J'accepte les conditions générales</span>
+                </label>
+
+                <label class="c-checkbox">
+                <input type="checkbox" class="c-checkbox__input">
+                <span class="c-checkbox__box"></span>
+                <span class="c-checkbox__label">Recevoir la newsletter</span>
+                </label>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FILTRES ================= -->
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Filtres</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Groupe de boutons qui filtre le programme ; un seul filtre est sélectionné à la fois.</p>
+
+        <div class="l-docs-group">
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Groupe de filtres</span>
+            <div>
+                <div class="c-filter-group">
+                <button class="c-filter-btn">Toutes les scènes</button>
+                <button class="c-filter-btn c-filter-btn--active">Scène du Lac</button>
+                <button class="c-filter-btn">Scène de la Forêt</button>
+                <button class="c-filter-btn">Le Kiosque</button>
+                </div>
+                <p class="c-form-group__help" style="margin-top: var(--spacing-8);">Normal · sélectionné (ici « Scène du Lac »)</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- ================= QUESTIONS FRÉQUENTES ================= -->
+    <section class="l-docs-section">
+        <h2 class="l-docs-section__title">Questions fréquentes</h2>
+        <div class="l-docs-section__separator"></div>
+        <p class="l-docs-section__desc">Accordéon : chaque question s'ouvre et se ferme indépendamment.</p>
+
+        <div class="l-docs-group">
+            <!-- Fermée -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Fermée</span>
+            <div class="l-docs-row__content l-docs-row__content--full">
+                <details class="c-accordion">
+                <summary class="c-accordion__summary">
+                    <span>Les enfants sont-ils acceptés ?</span>
+                    <span class="c-accordion__icon"></span>
+                </summary>
+                <div class="c-accordion__content">
+                    <p>Oui, l'entrée est gratuite pour les moins de 12 ans accompagnés d'un adulte.</p>
+                </div>
+                </details>
+            </div>
+            </div>
+
+            <!-- Ouverte -->
+            <div class="l-docs-row">
+            <span class="l-docs-row__label">Ouverte</span>
+            <div class="l-docs-row__content l-docs-row__content--full">
+                <details class="c-accordion" open>
+                <summary class="c-accordion__summary">
+                    <span>Puis-je revendre mon pass ?</span>
+                    <span class="c-accordion__icon"></span>
+                </summary>
+                <div class="c-accordion__content">
+                    <p>Oui, via la plateforme officielle de revente, jusqu'à 48 heures avant le festival. Le pass est alors réédité au nom du nouvel acheteur.</p>
+                </div>
+                </details>
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
