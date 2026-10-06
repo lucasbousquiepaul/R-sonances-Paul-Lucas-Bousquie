@@ -1,0 +1,18 @@
+/* Error: expected "{".
+ *    ,
+ * 42 | 14 px · graisse 400 · interligne 22 px
+ *    |                                       ^
+ *    '
+ *   scss\base\typographie.scss 42:39  @use
+ *   scss\main.scss 2:1                root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 42 \2502  14 px \b7  graisse 400 \b7  interligne 22 px\a    \2502                                        ^\a    \2575 \a   scss\\base\\typographie.scss 42:39  @use\a   scss\\main.scss 2:1                root stylesheet';
+}
